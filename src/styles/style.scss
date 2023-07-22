@@ -1,0 +1,71 @@
+@import 'mixins';
+
+
+
+/* Plugins */
+
+
+
+/* Blocks */
+
+/*html {
+  scroll-behavior: smooth;
+}*/
+
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/HelveticaRegular.woff)
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(../fonts/ArialRegular.woff);
+}
+
+
+
+
+
+
+
+
+@import './src/blocks/catalog/catalog';

@@ -1,0 +1,65 @@
+mixin catalog(modifier)
+  section.catalog&attributes(attributes)
+    .catalog__content 
+      h1.catalog__title Каталог реагентов
+      .catalog__inputs 
+        .catalog__checkbox
+          input(type="checkbox"  id="checkbox_1") 
+          label(for="checkbox_1").catalog__text Ингибиторы осадкообразования (антискаланты)
+        .catalog__checkbox
+          input(type="checkbox"  id="checkbox_2")
+          label(for="checkbox_2").catalog__text Реагенты для промывки мембран
+        .catalog__checkbox
+          input(type="checkbox" checked id="checkbox_3")  
+          label(for="checkbox_3").catalog__text Реагенты для консервации мембран
+      ul.catalog__list 
+        li.catalog__item
+          h2.catalog__item-title АКВА - ИС1
+          img(src="img/product1.png" alt="Ингибатор").catalog__img
+          p.catalog__item-text Ингибитор осадкообразования (антискалант) для обратного осмоса, ингибитор коррозии
+          button(type="button").catalog__btn Выбрать объем
+          button(type="button").catalog__btn-mobile Добавить в запрос
+        li.catalog__item
+          h2.catalog__item-title АКВА - ИС1
+          img(src="img/product1.png" alt="Ингибатор").catalog__img
+          p.catalog__item-text Ингибитор осадкообразования (антискалант) для обратного осмоса, ингибитор коррозии
+          button(type="button").catalog__btn Выбрать объем
+          button(type="button").catalog__btn-mobile Добавить в запрос
+        li.catalog__item
+          h2.catalog__item-title АКВА - ИС1
+          img(src="img/product1.png" alt="Ингибатор").catalog__img
+          p.catalog__item-text Ингибитор осадкообразования (антискалант) для обратного осмоса, ингибитор коррозии
+          button(type="button").catalog__btn Выбрать объем
+          button(type="button").catalog__btn-mobile Добавить в запрос
+        li.catalog__item
+          h2.catalog__item-title АКВА - ИС1
+          img(src="img/product1.png" alt="Ингибатор").catalog__img
+          p.catalog__item-text Ингибитор осадкообразования (антискалант) для обратного осмоса, ингибитор коррозии
+          button(type="button").catalog__btn Выбрать объем
+          button(type="button").catalog__btn-mobile Добавить в запрос
+        li.catalog__item
+          h2.catalog__item-title АКВА - ИС1
+          img(src="img/product1.png" alt="Ингибатор").catalog__img
+          p.catalog__item-text Ингибитор осадкообразования (антискалант) для обратного осмоса, ингибитор коррозии
+          button(type="button").catalog__btn Выбрать объем
+          button(type="button").catalog__btn-mobile Добавить в запрос
+      ul.catalog__list-pagination
+        li.catalog__item-page.catalog__item-page--active
+          a(href="index.html").catalog__link-page.catalog__link-page--active 1 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 2 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 3 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 4 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page.catalog__link-page--none ... 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 88 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 89 
+        li.catalog__item-page
+          a(href="#page").catalog__link-page 90
+        li.catalog__item-page
+          a(href="#page").catalog__link-page
+            include img/arrow.svg  

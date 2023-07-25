@@ -25,6 +25,11 @@
         opacity: 0;
     }
 
+    input {
+        pointer-events: all;
+        cursor: pointer;
+    }
+
     &__checkbox {
         position: relative;
         user-select: none;
